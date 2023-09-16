@@ -57,6 +57,7 @@ img{
     width: 120px;
     height: 40px;
     border: none;
+    cursor: pointer;
 }
 
 .information{
@@ -94,4 +95,22 @@ img{
 .quote h3 {
     align-self: flex-end;
     margin-right: auto;
+}
+
+.call .container{
+    background-color: #3882f6;
+    margin: 50px auto;
+    color: #e5e7eb;
+    border-radius: 15px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.action {
+    padding: 10px 20px;
+}
+
+.call .sign-up-button{
+    border: 2px solid #e5e7eb;
+    /* margin-left: 70px; */
 }
